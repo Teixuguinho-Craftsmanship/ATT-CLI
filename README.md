@@ -1,6 +1,9 @@
 # ATT&amp;CLI
 An offline, CLI-based MITRE ATT&amp;CK Matrix browser. Written in Rust.
 
+## Authors
+- @XoanOuteiro
+
 ## Installation
 Installing the app will create the ~/.mitre/ folder and download to it a 42mb JSON file containing the MITRE ATT&CK Matrix.
 The compiled rust binary will be automatically added to the path.
