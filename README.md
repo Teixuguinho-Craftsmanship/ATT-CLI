@@ -13,3 +13,36 @@ chmod +x install.sh && ./install.sh
 ```
 
 You will need to have cargo installed in your system
+
+ ## Usage:
+
+Listing all APTs:
+
+``` bash
+attcli apt-list
+```
+
+Seeing details on an APT (name, info, techniques used):
+
+``` bash
+attcli apt (id or name)
+```
+
+Seeing details on a technique:
+
+``` bash
+attcli tid (technique id)
+attcli tn (technique name)
+```
+
+Seeing all tactics:
+
+``` bash
+attcli tactic
+```
+
+Seeing a tactic (info and related techniques):
+
+``` bash
+attclic tactic (id or name)
+```
